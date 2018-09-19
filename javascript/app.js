@@ -8,7 +8,6 @@ class Ship  {
 }
 
 const game = {
-  playing: false,
   zero_to_one_inclusive () {
       if(Math.random() == 0)
       return 1;
